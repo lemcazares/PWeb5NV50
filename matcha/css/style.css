@@ -5,18 +5,85 @@ body{
 
 h1{
     color: #025157;
+    text-align: center;
 }
 
-#subtitle{
-    color: #46484c;
+li{
+    display: inline;
 }
 
-.btn-submit-email{
+.header {
+    margin: 40px 20px 0;
+    font-size: 0;
+    font-family: sans-serif;
+    /* height: 45px; */
+}
+
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+}
+
+.navbar{
+    width: 65%;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+}
+
+.actions{
+    display: inline;
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#actions-sign-in{
+    color: #67b54b;
+}
+
+.actions > *{
+    margin: 45px 10px;
+}
+
+#logo{
+    width: 15%;
+}
+
+.btn{
     color: #fff;
     background-color: #025157;
+    padding: 12px 14px;
+    border: none;
+    border-radius: 5px;
+}
+
+#btn-free-trial{
+    background-color: #67b54b;
+    color: white;
+}
+
+#main{
+    align-items: center;
+    text-align: center;
 }
 
 .promocional{
     color: #8b8b8bcc;
 }
 
+
+#subtitle{
+    color: #46484c;
+}
+
+
+
+#img-capterra-central{
+    width: 50%;
+    align-self: center;
+}
