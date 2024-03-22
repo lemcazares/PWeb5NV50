@@ -1,6 +1,6 @@
 
 body{
-    background-color: #adcfa2;
+    background-color: #fffbf7;
 }
 
 h1{
@@ -25,6 +25,7 @@ li{
     vertical-align: middle;
     height: 100%;
     line-height: 45px;
+    
 }
 
 .navbar{
@@ -52,6 +53,12 @@ li{
 
 #logo{
     width: 15%;
+}
+
+.fixed-header{
+    position:  sticky;
+    background-color: #fffbf7;
+
 }
 
 .btn{
@@ -87,3 +94,41 @@ li{
     width: 50%;
     align-self: center;
 }
+
+
+.video-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+
+.publish {
+    
+  }
+  
+  .publish h3 {
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+  }
+  
+  .publish > p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .publish > form {
+    display: flex;
+  }
+  
+  .publish > form p {
+    color: #025157;
+    margin-right: 18px;
+  }
